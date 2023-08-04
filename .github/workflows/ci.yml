@@ -1,6 +1,7 @@
-- name: Add submodules
-run: git submodule init && git submodule update
 name: .NET
+
+- name: Add submodules
+    run: git submodule init && git submodule update
 
 on:
   push:
