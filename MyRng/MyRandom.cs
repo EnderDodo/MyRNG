@@ -4,7 +4,7 @@ namespace MyRng;
 
 public class MyRandom
 {
-    private static BinaryFiniteField _field = new BinaryFiniteField(8, new[] { 0, 0, 0, 0, 0, 0, 0, 0, 1 });
+    private static BinaryFiniteField _field = new BinaryFiniteField(8, new[] { 1, 0, 0, 0, 1, 1, 1, 0, 1 });
 
     private byte[] Coefficients { get; }
     private byte[] _values;
